@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles.css" />
+
+    	</style>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="txt" value="" disabled /><br>
+        <input type="button" value="(" onclick="take(this.value)">
+        <input type="button" value=")" onclick="take(this.value)">
+        <input type="button" value="%" onclick="take(this.value)">
+        <input type="button" value="C" onclick="clean()" id="red"><br>
+
+        <input type="button" value="7" onclick="take(this.value)">
+        <input type="button" value="8" onclick="take(this.value)">
+        <input type="button" value="9" onclick="take(this.value)">
+        <input type="button" value="/" onclick="take(this.value)" id="green"><br>
+
+        <input type="button" value="4" onclick="take(this.value)">
+        <input type="button" value="5" onclick="take(this.value)">
+        <input type="button" value="6" onclick="take(this.value)">
+        <input type="button" value="*" onclick="take(this.value)" id="green"><br>
+
+        <input type="button" value="1" onclick="take(this.value)">
+        <input type="button" value="2" onclick="take(this.value)">
+        <input type="button" value="3" onclick="take(this.value)">
+        <input type="button" value="-" onclick="take(this.value)" id="green"><br>
+
+        <input type="button" value="0" onclick="take(this.value)">
+        <input type="button" value="." onclick="take(this.value)">
+        <input type="button" value="=" onclick="solve()" id="red">
+        <input type="button" value="+" onclick="take(this.value)" id="green">
+
+    </div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
